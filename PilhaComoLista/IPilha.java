@@ -1,0 +1,8 @@
+package PilhaComoLista;
+
+public interface IPilha {
+    public void push(int elemento);
+    public int pop();
+    public boolean isEmpity();
+    
+}
